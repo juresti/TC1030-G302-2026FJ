@@ -1,1 +1,3 @@
-add_executable(Herencia-Ejercicio pruebasHerencia.cpp)
+add_executable(Herencia-Ejercicio pruebasHerencia.cpp
+        Electrodomestico.cpp
+        Electrodomestico.hpp)

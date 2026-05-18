@@ -2,11 +2,15 @@
 // Created by Dr.Jorge on 13/05/26.
 //
 
+#include "Electrodomestico.hpp"
 #include <iostream>
-#include <ostream>
 
 using namespace std;
 
-int main(int argc, char *argv[]) {
-    cout << "Hola Herencia!" << endl;
+int main() {
+    cout << "***** Pruebas de Electrodomestico *****" << endl;
+    Electrodomestico el1{};
+    cout << "Valor encendido = " << el1.isEncendido() << endl;
+    el1.setEncendido(true);
+    cout << el1.toString() << endl;
 }
