@@ -3,3 +3,4 @@ project(TC1030)
 #Vacio por el momento, se ira llenando clase a clase
 add_subdirectory(Clase00)
 add_subdirectory(Herencia-Ejercicio)
+add_subdirectory(Polimorfismo-Ejercicio)
