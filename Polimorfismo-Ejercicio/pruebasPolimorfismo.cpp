@@ -30,5 +30,18 @@ int main(int argc, char *argv[]) {
     cout << freidora1.dimeFuncionActual() << endl;
     freidora1.cambiaFuncionActual("Asando");
     cout << freidora1.dimeFuncionActual() << endl;
+
+
+    // Polimorfismo
+    cout << "*** Pruebas de polimorfismo ***\n" << endl;
+    Electrodomestico* apElec = nullptr;
+
+    apElec = &licuaVel;
+    cout << apElec->dimeFuncionActual() << endl;
+    cout << apElec->toString() << endl;
+
+    apElec = &freidora1;
+    cout << apElec->dimeFuncionActual() << endl;
+    cout << apElec->toString() << endl;
     return 0;
 }
