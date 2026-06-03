@@ -15,9 +15,6 @@ private:
 public:
     Cafetera(std::string,float,int);
     std::string toString();
-    friend int operator + (Cafetera &c1,Cafetera &c2);
-    friend int operator + (int val,Cafetera &c);
 };
-
 
 #endif //CAFETERA_HPP
